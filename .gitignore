@@ -1,0 +1,34 @@
+# ===== Sistema (macOS) =====
+.DS_Store
+
+# ===== Logs =====
+*.log
+
+# ===== Compilados Java =====
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== Pastas de build =====
+/**/target/
+/**/build/
+/**/out/
+/**/.gradle/
+/**/.mvn/
+
+# ===== IDEs =====
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# ===== JVM Crash logs =====
+hs_err_pid*
