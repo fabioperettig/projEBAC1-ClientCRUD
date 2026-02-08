@@ -4,7 +4,6 @@ import br.com.fabioperettig.domain.Client;
 
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class ClientMapDAO implements IClientDAO{
@@ -50,7 +49,7 @@ public class ClientMapDAO implements IClientDAO{
     }
 
     @Override
-    public Client check(long id) {
+    public Client view(long id) {
         return this.map.get(id);
     }
 

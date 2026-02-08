@@ -2,6 +2,10 @@ package br.com.fabioperettig.domain;
 
 import java.util.Objects;
 
+
+/**
+ * @ authour Fabio Peretti Guimarães
+ */
 public class Client {
 
     private String name;
@@ -67,8 +71,11 @@ public class Client {
         this.state = state;
     }
 
+
+
     @Override
     public boolean equals(Object o) {
+        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Client client = (Client) o;
         return Objects.equals(id, client.id);
@@ -87,3 +94,4 @@ public class Client {
                 '}';
     }
 }
+

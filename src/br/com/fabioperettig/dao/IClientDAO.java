@@ -9,7 +9,7 @@ public interface IClientDAO {
     public boolean register(Client client);
     public void remove(long id);
     public void edit(Client client);
-    public Client check(long id);
+    public Client view(long id);
     public Collection<Client> printAll();
 
 }
