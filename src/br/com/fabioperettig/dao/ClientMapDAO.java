@@ -24,7 +24,7 @@ public class ClientMapDAO implements IClientDAO{
     }
 
     @Override
-    public void remove(long id) {
+    public void delete(long id) {
         Client registeredClient = this.map.get(id);
 
         if (registeredClient != null){

@@ -7,7 +7,7 @@ import java.util.Collection;
 public interface IClientDAO {
 
     public boolean register(Client client);
-    public void remove(long id);
+    public void delete(long id);
     public void edit(Client client);
     public Client view(long id);
     public Collection<Client> printAll();
