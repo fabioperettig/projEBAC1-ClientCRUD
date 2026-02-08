@@ -7,8 +7,6 @@ import br.com.fabioperettig.domain.Client;
 import javax.swing.*;
 
 
-
-
 public class Main {
 
     private static IClientDAO iClientDAO;
